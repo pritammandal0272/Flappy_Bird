@@ -1,12 +1,12 @@
-.ScrollDiv{
+/* .ScrollDiv{
     transition: left 0.2s linear;
     
-}
+} */
 .ScrollDiv.hide{
     transition: none;
 }
 .ScrollDiv.show{
-    transition: left 0.2s linear;
+    transition: left 0.1s linear;
 }
 .ScrollDiv.fixed{
     transition: none;

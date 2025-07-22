@@ -36,7 +36,7 @@ export const Slider = () => {
           return next < -30 ? (GameOver.current == true ? 20 : 100) : next;
         });
       }
-    }, 200);
+    }, 100);
 
     return () => clearInterval(Stop);
   }, [Start,GameOver.current]);
@@ -52,9 +52,9 @@ export const Slider = () => {
           bottom: `${Loop == 100 ? -RandomRef.current : null}%`,
         }}
       >
-        <img src={toppipe} ref={topPiller} className="h-[70vh] w-[30vw]" />
-        <div className="h-[150px]" ref={Gap}></div>
-        <img src={bottompipe} ref={BottomPiller} className="h-[70vh] w-[30vw]" />
+        <img src={bottompipe} ref={topPiller} className="h-[70vh] w-[50vw]" />
+        <div className="h-[120px]" ref={Gap}></div>
+        <img src={toppipe} ref={BottomPiller} className="h-[70vh] w-[50vw]" />
       </div>
     </>
   );

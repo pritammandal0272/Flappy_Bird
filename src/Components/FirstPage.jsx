@@ -29,17 +29,17 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
               </div>
 
               {/*Bird ============== */}
-              <div className="flex w-full overflow-hidden bg-white rounded-lg shadow-md dark:bg-[#2687c190] mb-2">
+              <div className="flex w-full overflow-hidden rounded-lg shadow-md bg-[#2687c190] mb-2">
                 <div className="flex items-center justify-center w-12 bg-emerald-500 ">
                   <img src={birdlogo} alt="" className="h-full w-full" />
                 </div>
 
                 <div className="px-4 py-0 -mx-3">
                   <div className="mx-3">
-                    <span className="font-semibold text-emerald-500 dark:text-emerald-400">
+                    <span className="text-amber-500 font-bold">
                       Birds
                     </span>
-                    <p className="text-sm text-gray-600 dark:text-gray-200 mb-1">
+                    <p className="text-sm text-white mb-1">
                       Select your favorite Bird
                     </p>
                   </div>
@@ -48,7 +48,7 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
 
               <div className="flex gap-2">
                 <div
-                  className={`flex flex-col h-fit items-center justify-center w-[7em] mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ${
+                  className={`flex flex-col h-fit items-center justify-center w-[7em] mx-auto overflow-hidden rounded-lg shadow-lg bg-black ${
                     SelectBird == "bird1" ? "border-2 border-blue-500" : null
                   }`}
                 >
@@ -67,7 +67,7 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
                   </div>
                 </div>
                 <div
-                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ${
+                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden rounded-lg shadow-lg bg-black  ${
                     SelectBird == "bird2" ? "border-2 border-blue-500" : null
                   }`}
                 >
@@ -86,7 +86,7 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
                   </div>
                 </div>
                 <div
-                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ${
+                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden rounded-lg shadow-lg bg-black ${
                     SelectBird == "bird3" ? "border-2 border-blue-500" : null
                   }`}
                 >
@@ -105,7 +105,7 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
                   </div>
                 </div>
                 <div
-                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ${
+                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden rounded-lg shadow-lg bg-black ${
                     SelectBird == "bird4" ? "border-2 border-blue-500" : null
                   }`}
                 >
@@ -128,17 +128,17 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
               {/*Bird End ================== */}
 
               {/*BackGround ============== */}
-              <div className="flex w-full overflow-hidden bg-white rounded-lg shadow-md dark:bg-[#5ee37070] mb-2 my-4">
+              <div className="flex w-full overflow-hidden rounded-lg shadow-md bg-[#5ee37070] mb-2 my-4">
                 <div className="flex items-center justify-center w-12 bg-yellow-500 ">
                   <img src={backlogo} alt="" className="h-full w-full" />
                 </div>
 
                 <div className="px-4 py-0 -mx-3">
                   <div className="mx-3">
-                    <span className="font-semibold text-emerald-500 dark:text-emerald-400">
+                    <span className="text-amber-500 font-bold">
                       Background
                     </span>
-                    <p className="text-sm text-gray-600 dark:text-gray-200 mb-1">
+                    <p className="text-sm text-white mb-1">
                       Select your favorite Background
                     </p>
                   </div>
@@ -147,7 +147,7 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
 
               <div className="flex gap-2">
                 <div
-                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ${
+                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden rounded-lg shadow-lg bg-black ${
                     SelectBackground == "back1"
                       ? "border-2 border-yellow-500"
                       : null
@@ -168,7 +168,7 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
                   </div>
                 </div>
                 <div
-                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ${
+                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden rounded-lg shadow-lg bg-black ${
                     SelectBackground == "back2"
                       ? "border-2 border-yellow-500"
                       : null
@@ -189,7 +189,7 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
                   </div>
                 </div>
                 <div
-                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ${
+                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden rounded-lg shadow-lg bg-black ${
                     SelectBackground == "back3"
                       ? "border-2 border-yellow-500"
                       : null
@@ -210,7 +210,7 @@ export const FirstPage = ({ SelectBackground, setSelectBackground }) => {
                   </div>
                 </div>
                 <div
-                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden bg-white rounded-lg shadow-lg dark:bg-gray-800 ${
+                  className={`flex flex-col items-center justify-center w-[7em] mx-auto overflow-hidden rounded-lg shadow-lg bg-black ${
                     SelectBackground == "back4"
                       ? "border-2 border-yellow-500"
                       : null

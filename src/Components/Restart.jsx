@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { IoHome } from "react-icons/io5";
+// import { IoHome } from "react-icons/io5";
 import { ContextProvider } from "../../srore/Context";
 export const Restart = () => {
     const {GameOver,RestartFun,ScoreCount,BacktoHome} = useContext(ContextProvider);
@@ -12,7 +12,7 @@ export const Restart = () => {
           >
             <div className="md:w-[20%] w-[75%] flex flex-col gap-3 max-w-lg bg-[#00000080] shadow-lg rounded-lg md:p-6 p-2  relative">
               <div className="flex items-center justify-center">
-                <p className="text-4xl font-semibold text-gray-900 dark:text-white">
+                <p className="text-4xl font-semibold text-white">
                   Score : {ScoreCount.current}
                 </p>
               </div>
@@ -23,7 +23,7 @@ export const Restart = () => {
                 }}
                 >
                   <span className="relative px-5 py-2.5 transition-all ease-in duration-75 bg-white dark:bg-gray-900 rounded-full group-hover:bg-transparent group-hover:dark:bg-transparent flex items-center justify-center gap-2 text-lg">
-                    <IoHome />
+                    {/* <IoHome /> */}
                     Back to Home
                   </span>
                 </button>

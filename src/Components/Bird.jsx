@@ -31,17 +31,17 @@ export const Bird = () => {
   useEffect(() => {
     if (Start) {
       const keyDownEvent = (e) => {
-        if (e.key == " ") {
+        // if (e.key == " ") {
           setBird((prev) => {
-            const Next = prev + 15;
+            const Next = prev + 18;
             PlaySoundClick();
             return Next;
           });
-        }
+        // }
       };
       Stop.current = setInterval(() => {
         setBird((prev) => {
-          const next = prev - 5;
+          const next = prev - 10;
           BirdPositionSrore.current =
             BirdPosition.current.getBoundingClientRect();
           if (
@@ -80,10 +80,10 @@ export const Bird = () => {
             : next;
         });
       }, 200);
-      window.addEventListener("keydown", keyDownEvent);
+      window.addEventListener("click", keyDownEvent);
 
       return () => {
-        window.removeEventListener("keydown", keyDownEvent);
+        window.removeEventListener("click", keyDownEvent);
         clearInterval(Stop.current);
       };
     }

@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://pritammandal0272.github.io/Flappy_Bird/",
+  "homepage": "https://github.com/pritammandal0272/Flappy_Bird-2.0.git/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
